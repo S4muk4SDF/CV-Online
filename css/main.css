@@ -1,0 +1,217 @@
+/* Id */
+
+#container {
+    width: auto;
+    height: 1000px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+#userInfo {
+    background-color: rgb(233, 229, 229);
+    width: 300px;
+    height: 700px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#userInfo img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* border: 3px solid black; */
+}
+
+#user {
+    background-color: rgb(233, 229, 229);
+    width: 1237px;
+    height: 1750px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+#facebook h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 7px 7px 7px 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+#facebook h1:hover{
+    background-color: rgb(7, 7, 146);
+}
+
+#instagram h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    padding: 7px 7px 7px 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+#instagram h1:hover{
+    background-color: rgb(189, 15, 189);
+}
+
+#linkedin h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 7px 7px 7px 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+#linkedin h1:hover{
+    background-color: rgb(9, 114, 155);
+}
+
+#github h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 7px 7px 7px 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+#github h1:hover{
+    background-color: rgb(196, 67, 16);
+}
+
+#sobre_Mim h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 40px;
+}
+
+#sobre_Mim p {
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#qualidades_E_Defeitos {
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+}
+
+#qualidades {
+    background-color: rgb(68, 156, 84);
+    width: 400px;
+    height: 350px;
+    margin-right: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 10px 10px springgreen;
+}
+
+#qualidades h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 35px;
+    color: springgreen;
+    display: flex;
+    justify-content: center;
+}
+
+#qualidades h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#qualidades li {
+    color: springgreen;
+}
+
+#defeitos {
+    background-color: rgb(160, 61, 61);
+    width: 400px;
+    height: 350px;
+    margin-left: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 10px 10px rgb(255, 0, 64);
+}
+
+#defeitos h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 35px;
+    color: rgb(255, 0, 64);
+    display: flex;
+    justify-content: center;
+}
+
+#defeitos h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#defeitos li {
+    color: rgb(255, 0, 64);
+}
+
+#projetos {
+    /* background-color: black; */
+    width: auto;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#projetos h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 25px;
+    color: white;
+    background-color: aqua;
+    width: 330px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(76, 88, 104);
+}
+
+/* Class */
+
+a {
+    text-decoration: none;
+}
+
+.sections {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
